@@ -1,0 +1,12 @@
+body {
+background-image: url("../linux.jpeg");
+background-repeat: no-repeat;
+background-position: center;
+}
+
+#
+body {
+background-image: url("../linux.jpeg");
+background-repeat: repeat-x;
+}
+#

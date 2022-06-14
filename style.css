@@ -1,0 +1,22 @@
+/* hai my new joune*/
+#head{color:blue;
+font-size:1em;
+width:100px;
+border:1px solid black;
+text-align:center;}
+
+h1.head1{color:red;
+font-size:1em;
+text-align:center;}
+
+h1.head2{color:green;
+font-size:1em;
+text-align:center;}
+
+#para1{color:red;
+font-size:1em;
+text-align:left;}
+
+p.para2{color:blue;
+font-size:1em;
+text-align:left;}
