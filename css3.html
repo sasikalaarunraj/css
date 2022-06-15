@@ -1,20 +1,29 @@
-
 <!DOCTYPE html>
 <html>
 <head>
 <style>
-[class|=top] {
-  background: yellow; <!-- | symbol used to pick extact matc-->
+.newspaper {
+  column-count: 3;
+  column-width: 100px;
+ /*column-rule-style: solid;
+ column-rule-color: lightblue;*/
+  column-gap: 40px;
+ column-rule: 4px dotted rgb(79, 79, 227);
 }
+
+/*
+.newspaper {
+  column-count: 3;
+
+}*/
 </style>
 </head>
 <body>
-
-<h2>CSS [attribute|="value"] Selector</h2>
-
-<h1 class="top-header">கனவா கனவா</h1>
-<p class="top-text">நான் காண்பது கனவா</p>
-<p class="topcontent">என் கண் முன்னே கடவுள் துகளா</p>
-
+<h1>Create Multiple Columns</h1>
+<div class="newspaper">
+உங்களுக்கு பிடித்தமான கட்டற்ற மென்பொருளுக்கு பங்களியுங்கள். ஒரு வரி நிரல் தந்தாலும் அது பெரிய விஷயமே. நிரல் மட்டுமின்றி ஆவணமாக்கம், படம், IRC, Forum, Mailing list ஆகியவற்றில் உதவி, Packaging, பரப்புரை செய்தல், மொழிமாற்றம் செய்தல் என ஏதாவது ஒரு வகையில் பங்களியுங்கள். “How to contribute to Open Source Software?” என்று தேடுங்கள். பிடித்த மொழியில், பிடித்த மென்பொருளுக்கு உதவுங்கள்.உங்களுக்கு பிடித்தமான கட்டற்ற மென்பொருளுக்கு பங்களியுங்கள். ஒரு வரி நிரல் தந்தாலும் அது பெரிய விஷயமே. நிரல் மட்டுமின்றி ஆவணமாக்கம், படம், IRC, Forum, Mailing list ஆகியவற்றில் உதவி, Packaging, பரப்புரை செய்தல், மொழிமாற்றம் செய்தல் என ஏதாவது ஒரு வகையில் பங்களியுங்கள். “How to contribute to Open Source Software?” என்று தேடுங்கள். பிடித்த மொழியில், பிடித்த மென்பொருளுக்கு உதவுங்கள்.
+</div>
 </body>
 </html>
+
+

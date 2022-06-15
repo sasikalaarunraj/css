@@ -1,13 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="styles/style2.css">
+<style>
+.button {
+  background-color: brown;
+  border: none;
+  border-radius: 20%;/* 4px 8px 16px 32px வட்டமாக வேண்டுமெனில் 25% 50% 100% */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+/* hover பண்பைச் சேருங்கள் }*/
+.button:hover {
+  background-color: blue;
+  color: white;
+
+</style>
 </head>
 <body>
-<h2>CSS [attribute] Selector</h2>
-<p>பின்னணி மஞ்சளாக எங்கெல்லாம் மாறுகிறது, பாருங்கள். </p>
-<a href="https://www.kaniyam.com">Kaniyam</a>
-<a href="http://www.ilugc.in" target="_blank">ILUGC</a>
-<a href="http://www.wikipedia.org" target="_blank">Wikipedia</a>
+<h2>CSS Buttons</h2>
+
+<button>Default Button</button>
+<a href="https://payilagam.com" class="button" target="_blank">Visit Payilagam</a>
+<button class="button">Button</button>
+<input type="button" class="button" value="click here">
+
 </body>
 </html>
+
+
+
+
